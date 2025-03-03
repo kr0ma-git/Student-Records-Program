@@ -21,7 +21,7 @@ void deleteRecord(studentID students[], int *studentCount);
 
 int main() {
     studentID students[MAX_STUDENTS];
-    int choice, studentCount = 0; // Initialize with 2 predefined records
+    int choice, studentCount = 0;
     int *ptr = &studentCount;
 
     // Initializing pre-defined Student ID Records.
